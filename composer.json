@@ -1,5 +1,8 @@
 {
     "name": "nhmnazmul/users-managment",
+    "scripts": {
+      "dev" : "php -S localhost:8080 -t public"
+    },
     "autoload": {
         "psr-4": {
             "Nhmnazmul\\UsersManagment\\": "src/"
@@ -11,5 +14,7 @@
             "email": "najmulmonir12345@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
 }
