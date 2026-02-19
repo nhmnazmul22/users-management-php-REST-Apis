@@ -1,0 +1,15 @@
+{
+    "name": "nhmnazmul/users-managment",
+    "autoload": {
+        "psr-4": {
+            "Nhmnazmul\\UsersManagment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nhmnazmul22",
+            "email": "najmulmonir12345@gmail.com"
+        }
+    ],
+    "require": {}
+}
