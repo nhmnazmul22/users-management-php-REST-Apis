@@ -17,7 +17,7 @@ class User
             $this->conn = new Database()->connect();
         } catch (Exception $e) {
             $this->conn = null;
-            error_log("[" . date("Y-m-d H:i:s") . "] Connection failed: " . $e->getMessage(), 3, '../../logs/error.log');
+            error_log("[" . date("Y-m-d H:i:s") . "] Connection failed: " . $e->getMessage(), 3, __DIR__ . "/../logs/error.log");
         }
     }
 
