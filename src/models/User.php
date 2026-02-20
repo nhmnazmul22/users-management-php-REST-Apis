@@ -33,7 +33,7 @@ class User
             $stmt = $this->conn->query($query);
             return $stmt->fetchAll(PDO::FETCH_ASSOC);
         } catch (PDOException $e) {
-            error_log("Query failed: " . $e->getMessage(), 3, '../../logs/error.log');
+            error_log("Query failed: " . $e->getMessage(), 3, __DIR__ . "/../logs/error.log");
             return null;
         }
     }
